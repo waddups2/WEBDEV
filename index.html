@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration and Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Register Information</h2>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="lastname">Last Name:</label></td>
+                    <td><input type="text" id="lastname" name="lastname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="firstname">First Name:</label></td>
+                    <td><input type="text" id="firstname" name="firstname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" name="age" required></td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">Birthday:</label></td>
+                    <td><input type="date" id="birthday" name="birthday" required></td>
+                </tr>
+                <tr>
+                    <td><label for="school">School:</label></td>
+                    <td><input type="text" id="school" name="school" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="contact">Contact:</label></td>
+                    <td><input type="text" id="contact" name="contact" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Register</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h2>Login Form</h2>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Login</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
